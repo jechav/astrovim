@@ -50,6 +50,9 @@ return {
     ["<C-s>"] = {
       function() require("harpoon.ui").nav_file(4) end,
     },
+    ["<leader>fp"] = { "<cmd>let @+=expand('%:p')<CR>", desc = "Copy file path" }, -- change description but the same command
+    ["<leader>fP"] = { "<cmd>let @+=expand('%:~:.')<CR>", desc = "Copy file abs path" }, -- change description but the same command
+    ["<leader>esl"] = { "<cmd>EslintFixAll<CR>", desc = "Eslint Fix All" }, -- change description but the same command
   },
   t = {
     -- setting a mapping to false will disable it

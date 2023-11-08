@@ -6,4 +6,5 @@ return {
 
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
