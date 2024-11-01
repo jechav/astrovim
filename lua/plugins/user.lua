@@ -5,9 +5,11 @@
 return {
 
   -- == Examples of Adding Plugins ==
-  'wellle/context.vim',
-  'stephpy/vim-php-cs-fixer',
-  'jwalton512/vim-blade',
+  "wellle/context.vim",
+  "stephpy/vim-php-cs-fixer",
+  "jwalton512/vim-blade",
+  "luckasRanarison/tailwind-tools.nvim",
+  "onsails/lspkind-nvim",
   { "wakatime/vim-wakatime", event = "VeryLazy" },
   "ThePrimeagen/harpoon",
 

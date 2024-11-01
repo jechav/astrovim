@@ -2,6 +2,8 @@ return { -- override nvim-cmp plugin
   "hrsh7th/nvim-cmp",
   dependencies = {
     "mlaursen/vim-react-snippets",
+    "luckasRanarison/tailwind-tools.nvim",
+    "onsails/lspkind-nvim",
   },
   -- override the options table that is used in the `require("cmp").setup()` call
   opts = function(_, opts)
