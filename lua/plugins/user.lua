@@ -12,7 +12,6 @@ return {
   "onsails/lspkind-nvim",
   { "wakatime/vim-wakatime", event = "VeryLazy" },
   "ThePrimeagen/harpoon",
-
   -- "andweeb/presence.nvim",
   -- {
   --   "ray-x/lsp_signature.nvim",

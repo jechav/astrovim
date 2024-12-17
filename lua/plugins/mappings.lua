@@ -6,6 +6,7 @@ return {
       mappings = {
         -- first key is the mode
         n = {
+          -- Harpoon shortcuts
           ["<leader>a"] = {
             function() require("harpoon.mark").add_file() end,
           },
@@ -21,16 +22,23 @@ return {
           ["<C-n>"] = {
             function() require("harpoon.ui").nav_file(3) end,
           },
-          ["<C-s>"] = {
+          ["<C-b>"] = {
             function() require("harpoon.ui").nav_file(4) end,
           },
           ["<leader>fp"] = { "<cmd>let @+=expand('%:p')<CR>", desc = "Copy file path" }, -- change description but the same command
           ["<leader>fP"] = { "<cmd>let @+=expand('%:~:.')<CR>", desc = "Copy file abs path" }, -- change description but the same command
           ["<leader>esl"] = { "<cmd>EslintFixAll<CR>", desc = "Eslint Fix All" }, -- change description but the same command
+          -- Utils
+          ["<leader>k"] = { "<cmd>cnext<CR>zz", desc = "Quick fix next" },
+          ["<leader>j"] = { "<cmd>cprev<CR>zz", desc = "Quick fix prev" },
+          ["<leader>dd"] = { "<cmd>ccl<CR>", desc = "Close Quick fix" },
         },
         t = {
           -- setting a mapping to false will disable it
           -- ["<esc>"] = false,
+        },
+        x = {
+          ["<leader>p"] = { '[["_dP]]', desc = "Paste whitout overriding register" },
         },
       },
     },
