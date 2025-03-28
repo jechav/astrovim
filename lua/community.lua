@@ -8,6 +8,8 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.laravel" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- { import = "astrocommunity.pack.python" },
   -- import/override with your plugins folder
 }
