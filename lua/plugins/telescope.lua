@@ -14,10 +14,12 @@ return {
     opts.defaults.mappings.i["<Esc>"] = actions.close
 
     opts.defaults.layout_config = {
-      width = 0.99,
-      prompt_position = "top",
-      mirror = false,
-      preview_width = 0.65,
+      horizontal = {
+        width = 0.99,
+        prompt_position = "top",
+        mirror = false,
+        preview_width = 0.65,
+      },
     }
 
     opts.defaults.layout_strategy = "horizontal"

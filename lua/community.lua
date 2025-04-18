@@ -10,6 +10,7 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.laravel" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.git.neogit" },
   -- { import = "astrocommunity.pack.python" },
   -- import/override with your plugins folder
 }

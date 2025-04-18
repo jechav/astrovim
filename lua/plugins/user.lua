@@ -10,7 +10,7 @@ return {
   "jwalton512/vim-blade",
   "luckasRanarison/tailwind-tools.nvim",
   "onsails/lspkind-nvim",
-  { "wakatime/vim-wakatime", event = "VeryLazy" },
+  -- { "wakatime/vim-wakatime", event = "VeryLazy" },
   "ThePrimeagen/harpoon",
   -- "andweeb/presence.nvim",
   -- {

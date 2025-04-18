@@ -42,6 +42,14 @@ return {
           ["<leader>k"] = { "<cmd>cnext<CR>zz", desc = "Quick fix next" },
           ["<leader>j"] = { "<cmd>cprev<CR>zz", desc = "Quick fix prev" },
           ["<leader>dd"] = { "<cmd>ccl<CR>", desc = "Close Quick fix" },
+          -- Neogit
+          ["<leader>G"] = { function() require("neogit").open() end, desc = "Open Neogit" },
+
+          -- Keep screen center on navigate
+          ["<C-d>"] = { "<C-d>zz", desc = "Scroll down" },
+          ["<C-u>"] = { "<C-u>zz", desc = "Scroll up" },
+          ["n"] = { "nzzzv", desc = "Scroll up" },
+          ["N"] = { "Nzzzv", desc = "Scroll up" },
         },
         t = {
           -- setting a mapping to false will disable it
