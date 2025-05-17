@@ -8,7 +8,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.pack.laravel" },
+  -- { import = "astrocommunity.pack.laravel" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.git.neogit" },
   -- { import = "astrocommunity.pack.python" },

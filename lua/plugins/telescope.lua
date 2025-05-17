@@ -24,6 +24,11 @@ return {
 
     opts.defaults.layout_strategy = "horizontal"
 
+    -- 🧠 Enable cache_picker globally
+    opts.defaults.cache_picker = {
+      num_pickers = 120, -- Optional: cache the 5 most recent pickers
+    }
+
     local telescope = require "telescope"
     -- then load the extension
     telescope.load_extension "live_grep_args"

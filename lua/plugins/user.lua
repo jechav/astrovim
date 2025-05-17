@@ -5,7 +5,7 @@
 return {
 
   -- == Examples of Adding Plugins ==
-  "wellle/context.vim",
+  -- "wellle/context.vim",
   "stephpy/vim-php-cs-fixer",
   "jwalton512/vim-blade",
   "luckasRanarison/tailwind-tools.nvim",
